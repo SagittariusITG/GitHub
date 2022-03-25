@@ -11,9 +11,25 @@ git init
 > Para crear rama.
 
 ```sql
-git branch -M [rama]
+git branch -M [rama] -- Renombrar rama.
 
 git remote add origin [url]
+
+git branch -d [rama] -- Eliminar rama (La une con la main a menos que estemos en esa rama).
+
+git branch -D [rama] -- Eliminar forzado.
+```
+
+> Mostrar ramas.
+
+```sql
+git branch -- Ver las ramas.
+```
+
+> Para cambiar de rama.
+
+```sql
+git checkout [rama]
 ```
 
 > Para clonar un repositorio.
@@ -39,7 +55,7 @@ git add [archivo]
 ```sql
 git commit -m [comentario]
 
-git commit -a -m [comentario] -- Desde el archivo sin preparar.
+git commit -a -m [comentario] -- Desde el archivo sin preparar (sin el add).
 ```
 
 > Para subr a GitHub.
@@ -64,4 +80,10 @@ git log -- Ver commits.
 git log -p -- Ver commits + detalles.
 
 git log -1 -- para ver el último registro.
+```
+
+> Detalle de las modificaciones
+
+```sql
+git diff
 ```
