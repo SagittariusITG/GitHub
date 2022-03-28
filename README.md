@@ -118,6 +118,20 @@ En estos sistemas los clientes no solo descargan la última copia instantánea d
 
 > Estados de git.
 
-* Confirmaddo → Datos almacenados de manera segura en BD local.
-* Modificado → Modificado, falta confirmar en la BD local.
-* Preparado → Archivo marcado como modificado en su versión actual listo para confirmar.
+* Confirmado.
+
+```
+Datos almacenados de manera segura en BD local.
+```
+
+* Modificado.
+
+```
+Modificado, falta confirmar en la BD local.
+```
+
+* Preparado.
+
+```
+Archivo marcado como modificado en su versión actual listo para confirmar.
+```
